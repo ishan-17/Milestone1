@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.style.css" />
+    <link rel="stylesheet" href="../css/navbar.style.css" />
+    <link rel="stylesheet" href="../css/footer.style.css" />
+    <title>Create New Product</title>
+  </head>
+  <body>
+    <!-- Navbar Start Here -->
+
+    <nav class="header sticky">
+      <div class="header-left">
+        <h1><a href="../pages/productList.html">Branding </a></h1>
+      </div>
+
+      <div class="header-right">
+        <input type="checkbox" id="check" />
+
+        <ul class="header-list">
+          <li><a href="../pages/productList.html">Products</a></li>
+          <li><a href="../pages/index.html">Login</a></li>
+          <li><a href="../pages/signup.html">Signup</a></li>
+          <li><a href="../pages/newProduct.html">Create New Product</a></li>
+          <li>
+            <div class="user_info">
+                <span><img class="user_icon" src="../images/dummy_user_2.png" alt="broken_image"></span>
+                <span class="user_name">Ishan Majethia</span>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar End Here -->
+
+    <div class="signin-form">
+      <div class="signin-form-container">
+        <div class="signin-form-header">
+          <h2>Create new product</h2>
+          <p>Create a product of your choice and save it in your library.</p>
+        </div>
+        <form>
+          <div class="input-box">
+            <input type="text" placeholder="Name of product" />
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Price (In USD)" />
+          </div>
+
+          <div class="input-box">
+            <input type="text" placeholder="Description of product" />
+          </div>
+
+          <div class="input-box">
+            <input type="file" />
+          </div>
+          <a class="create_button" href="../pages/productList.html">Submit</a>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Start Here -->
+
+    <div class="Footer">
+      <div class="note">
+        <span id="note-head"><b>Note</b></span>
+      </div>
+
+      <div class="text">
+        <marquee direction="left">
+          • Currently this website is in development phase.
+          <span>• Milestone1: This is just Html and Css Skeleton </span>
+          <span
+            >• Milestone2: In Milestone2 we will be converting this Html and Css
+            website into React.
+          </span>
+          <span>• CopyRight @2023 By Ishan Majethia Tharun Reddy Shiva Prasad Reddy </span>
+        </marquee>
+      </div>
+    </div>
+    <!-- Footer End Here -->
+  </body>
+</html>
